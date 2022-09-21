@@ -1,0 +1,223 @@
+body {
+    position: inherit;
+    background: url('lutheria\ \(2\).png') no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: black;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.barra_superior {
+    width: 960px;
+    height: 100%;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 5px solid white;
+    margin-left: 0px;
+}
+
+h3{
+    color: rgb(29, 8, 7);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 350px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+footer { 
+    background-color: black;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+footer a {
+    margin: 20px;
+    padding-left: 165px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+
+.p_footer {
+    margin: 20px 20px;
+    padding: 20px 30px;
+    text-align: center;
+    margin-left: -200px;
+    margin-right: -200px;
+}
+
+p{
+    color: black;
+    text-align: inherit;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.p_contato {
+    color: black;
+    align-items: center;
+}
+
+.p_footer {
+    color: white;
+}
+input {
+    margin: auto;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.slider {
+    margin: 0 auto;
+    width: 760px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+    
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img {
+    width: 800px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid rgb(60, 12, 116);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.manual-btn:not(last-child){
+    margin-right: 10px;
+}
+
+
+#radio1:checked ~ .first {
+    margin-left:0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left:-50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left:-75%;
+}
+
+form {
+    background-color: rgba(29, 8, 7, 0.8);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: inherit;
+    left: 50%;
+    top: 50%;
+    transform: translate(50% 50%);
+    margin-left: 400px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.form_h3{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer img {
+    width:  40px ;
+    height:  40px ;
+    border-radius: 50%;
+    border: none;
+}
+
+.form_contato {
+    width: 485px;
+    height: 45px;
+    border: 1px solid white;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.form_submit {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 0;
+}
+
+.form_submit [type=submit] :hover{
+    background-color: blueviolet;
+}
+
+.form_contato [type=text] :focus{
+    outline: 0;
+}
